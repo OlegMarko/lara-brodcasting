@@ -12,6 +12,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <link href="css/app.css" rel="stylesheet" type="text/css">
         <!-- Styles -->
         <style>
             html, body {
@@ -72,7 +73,7 @@
                 <div class="title m-b-md">
                     Laravel Event Listeners & Laravel Broadcasting
                 </div>
-                <a href="{{ asset('/fire-event') }}"></a>
+                <a href="{{ asset('/fire-event') }}" class="btn btn-primary">Bind Event</a>
             </div>
             <div id="app"></div>
         </div>
